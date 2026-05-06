@@ -1,0 +1,7 @@
+warning: profiles for the non root package will be ignored, specify profiles at the workspace root:
+package:   /Users/c02x6441jgh5/Documents/projects/shieldpoint-contract/contracts/verifier/Cargo.toml
+workspace: /Users/c02x6441jgh5/Documents/projects/shieldpoint-contract/Cargo.toml
+warning: profiles for the non root package will be ignored, specify profiles at the workspace root:
+package:   /Users/c02x6441jgh5/Documents/projects/shieldpoint-contract/contracts/auth/Cargo.toml
+workspace: /Users/c02x6441jgh5/Documents/projects/shieldpoint-contract/Cargo.toml
+    Blocking waiting for file lock on build directory
