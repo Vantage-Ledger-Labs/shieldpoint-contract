@@ -1,0 +1,1 @@
+{"rustc":13123747295654435574,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[14833005319145329331,"build_script_build",false,16556912430549108259]],"local":[{"RerunIfChanged":{"output":"debug/build/soroban-env-common-4da8e703fde28462/output","paths":["build.rs"]}}],"rustflags":[],"config":0,"compile_kind":0}
