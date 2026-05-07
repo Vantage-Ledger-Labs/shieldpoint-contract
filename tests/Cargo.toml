@@ -1,0 +1,15 @@
+[package]
+name    = "shieldpoint-integration-tests"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+shieldpoint-auth     = { path = "../contracts/auth" }
+shieldpoint-verifier = { path = "../contracts/verifier" }
+shieldpoint-registry = { path = "../contracts/registry" }
+soroban-sdk          = { version = "21.0.0", features = ["testutils", "alloc"] }
+
+[[test]]
+name = "integration"
+path = "integration.rs"
