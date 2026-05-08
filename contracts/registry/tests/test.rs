@@ -57,9 +57,10 @@ fn test_proof_stored_event_emitted() {
 fn test_store_proof_rejected_for_unauthorised_invoker() {
     let (env, registry_id) = setup();
     let registry_client = RegistryClient::new(&env, &registry_id);
+    let verifier = Address::generate(&env);
     let user = Address::generate(&env);
     let proof_hash = BytesN::from_array(&env, &[0xabu8; 32]);
 
-    // Do not initialize verifier contract, or use wrong invoker address.
+    registry_client.initialize(&verifier);
     registry_client.store_proof(&user, &0u32, &proof_hash, &true);
 }
