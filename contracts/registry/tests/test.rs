@@ -2,7 +2,7 @@
 
 use soroban_sdk::{testutils::Address as _, Address, BytesN, Env, Vec};
 
-use crate::{ProofDetails, ProofRegistryEvent, Registry, RegistryError};
+use crate::{Registry, RegistryClient};
 
 fn setup() -> (Env, Address) {
     let env = Env::default();
