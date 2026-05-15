@@ -13,6 +13,8 @@ This repository contains the on-chain logic for **ShieldPoint**, the privacy mid
 3. Build: `stellar contract build`
 4. Test: `cargo test`
 
+Deploy: `./scripts/deploy.sh` (use `--testnet` to deploy to Testnet).
+
 ## Milestones
 - [ ] Implement BN254 Pairing Wrapper.
 - [ ] Deploy Verifier Contract to Testnet.
